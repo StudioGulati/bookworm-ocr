@@ -1,0 +1,19 @@
+{
+  "name": "bookworm-ocr",
+  "version": "1.0.0",
+  "description": "Cloud native application for extracting text from images, based on Google Drive, Cloud Run, and the Vision API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Asheesh Gulati",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vision": "^3.0.1",
+    "googleapis": "^108.0.0"
+  },
+  "volta": {
+    "node": "16.18.0",
+    "npm": "8.19.2"
+  }
+}
